@@ -54,8 +54,16 @@ button:hover{
     font-size: 18px;
     padding:25px ;
 }
+@media screen and (max-width:1118px){
+    button{
+       
+        padding: 20px;
+        font-size: 18px;
+        
+    }
+}
 
-@media screen and (max-width:768px){
+@media screen and (max-width:844px){
     button{
         border: 0.5px solid #fff;
         background-color: #e2d9d9;
